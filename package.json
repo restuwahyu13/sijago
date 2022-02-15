@@ -1,6 +1,6 @@
 {
 	"name": "sijago",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "SiJago is GraphQL Client for browser and node, you can write request graphql schema using javascript object style.",
 	"main": "./dist/index.js",
 	"module": "./esm/index.js",
