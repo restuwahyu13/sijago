@@ -32,8 +32,8 @@
 	},
 	"license": "MIT",
 	"engines": {
-		"node": ">= ^12",
-		"npm": ">= ^6"
+		"node": ">=^12",
+		"npm": ">=^6"
 	},
 	"keywords": [
 		"graphql",
