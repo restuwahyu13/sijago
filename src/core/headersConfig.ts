@@ -9,41 +9,30 @@ export function localHeaders(options: HeadersOptions): InstanceType<typeof Heade
 		const origin: any = assert.isString(options.origin as any) ? options.origin : (options.origin as string[]).join(',')
 		headers.set('Access-Control-Allow-Origin', origin)
 		headers.set('Vary', 'origin')
-	} else {
-		headers.set('Access-Control-Allow-Origin', '*')
 	}
 
 	// set headers to Access-Control-Allow-Methods
 	if (!assert.isUndefined(options as any) && options.hasOwnProperty('methods')) {
 		const methods: any = assert.isString(options.methods as any) ? options.methods : (options.methods as string[]).join(',')
 		headers.set('Access-Control-Allow-Methods', methods)
-	} else {
-		headers.set('Access-Control-Allow-Methods', 'POST')
 	}
 
 	// set headers to Access-Control-Allow-Headers
 	if (!assert.isUndefined(options as any) && options.hasOwnProperty('allowedHeaders')) {
 		const allowedHeaders: any = (options.allowedHeaders as string[]).join(',')
 		headers.set('Access-Control-Allow-Headers', allowedHeaders)
-	} else {
-		headers.set('Access-Control-Allow-Headers', 'Content-Type, Accept, Authorization')
 	}
 
 	// set headers to Access-Control-Expose-Headers
 	if (!assert.isUndefined(options as any) && options.hasOwnProperty('exposedHeaders')) {
 		const exposedHeaders: any = (options.exposedHeaders as string[]).join(',')
 		headers.set('Access-Control-Expose-Headers', exposedHeaders)
-	} else {
-		headers.set('Access-Control-Expose-Headers', 'Content-Range, X-Content-Range')
 	}
 
 	// set headers to Content-Type && Accept
 	if (!assert.isUndefined(options as any) && options.hasOwnProperty('responseType')) {
 		headers.set('Accept', options.responseType as string)
 		headers.set('Content-Type', options.responseType as string)
-	} else {
-		headers.set('Accept', 'application/json')
-		headers.set('Content-Type', 'application/json')
 	}
 
 	// set headers to Access-Control-Allow-Credentials
@@ -92,15 +81,11 @@ export function globalHeaders(SiJago: any): Headers {
 	// set headers to Access-Control-Allow-Origin
 	if (!assert.isUndefined(configs as any) && configs.hasOwnProperty('origin')) {
 		headers.set('Access-Control-Allow-Origin', configs.origin as string)
-	} else {
-		headers.set('Access-Control-Allow-Origin', '*')
 	}
 
 	// set headers to Access-Control-Allow-Methods
 	if (!assert.isUndefined(configs as any) && configs.hasOwnProperty('method')) {
 		headers.set('Access-Control-Allow-Methods', configs.method as string)
-	} else {
-		headers.set('Access-Control-Allow-Methods', 'POST')
 	}
 
 	// set headers to Access-Control-Allow-Methods
@@ -111,15 +96,11 @@ export function globalHeaders(SiJago: any): Headers {
 	// set headers to Access-Control-Allow-Headers
 	if (!assert.isUndefined(configs as any) && configs.hasOwnProperty('allowedHeaders')) {
 		headers.set('Access-Control-Allow-Headers', configs.allowedHeaders as string)
-	} else {
-		headers.set('Access-Control-Allow-Headers', 'Content-Type, Accept, Authorization')
 	}
 
 	// set headers to Access-Control-Expose-Headers
 	if (!assert.isUndefined(configs as any) && configs.hasOwnProperty('exposedHeaders')) {
 		headers.set('Access-Control-Expose-Headers', configs.exposedHeaders as string)
-	} else {
-		headers.set('Access-Control-Expose-Headers', 'Content-Range, X-Content-Range')
 	}
 
 	// set headers to Access-Control-Allow-Credentials
@@ -146,9 +127,6 @@ export function globalHeaders(SiJago: any): Headers {
 	if (!assert.isUndefined(configs as any) && configs.hasOwnProperty('responseType')) {
 		headers.set('Content-Type', configs.responseType as string)
 		headers.set('Accept', configs.responseType as string)
-	} else {
-		headers.set('Accept', 'application/json')
-		headers.set('Content-Type', 'application/json')
 	}
 
 	// set headers to Cache-Control

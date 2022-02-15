@@ -5,4 +5,3 @@
  */
 
 export { SiJago as sijago } from './core/siJago'
-export { HeadersOptions, SiJagoResponse, SiJagoConfig, SiJagoOptions } from './types'

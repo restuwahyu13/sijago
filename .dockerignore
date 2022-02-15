@@ -5,3 +5,5 @@ coverage
 images
 .github
 __test__
+ssr
+cjs

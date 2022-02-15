@@ -20,3 +20,7 @@ tsconfig.json
 package-lock.json
 kraken.config.json
 demo
+cjs
+ssr
+testing.js
+testing.ts

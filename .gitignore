@@ -4,5 +4,7 @@ app
 dist
 esm
 config
+cjs
+ssr
 testing.js
 testing.ts
