@@ -56,7 +56,7 @@ npm install sijago -S or yarn add sijago -S
   - **url**: is used for the address of the graphql server that will be used to interaction.
   - **origin**: is used for response header indicates whether the response can be shared with requesting code from the given origin.
   - **method**: used for response header specifies one or more methods allowed when accessing a resource in response or request.
-  - **allowedHeaders**: ise used for response header is used in response to a preflight request can be used during the actual request, default value to.
+  - **allowedHeaders**: ise used for response header is used in response to a preflight request can be used during the actual request.
   - **exposedHeaders**: is used for response header allows a server to indicate which response headers should be made available.
   - **credentials**: is used for response header tells http whether to expose the response to server.
   - **maxAge**: is used for response header indicates how long the results of a preflight request can be cached.
