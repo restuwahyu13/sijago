@@ -28,7 +28,7 @@ npm install sijago -S or yarn add sijago -S
 
 ## SiJago Options
 
-- **url?**: is used for the address the graphql server that will be used to interaction.
+- **url**: is used for the address the graphql server that will be used to interaction.
 - **input**: is used to send given request from client to graphql server, usually used when using mutation or query.
 - **body**: is used to display the response data provided by the graphql server.
 - **headers**: is used for interface of the Fetch API allows you to perform various actions on HTTP request and response headers.
@@ -54,14 +54,14 @@ npm install sijago -S or yarn add sijago -S
   Configs is used for global custome headers, for interation request between client and server.
 
   - **url**: is used for the address of the graphql server that will be used to interaction.
-  - **origin**: is used for response header indicates whether the response can be shared with requesting code from the given origin, default value to `*`.
-  - **method**: used for response header specifies one or more methods allowed when accessing a resource in response or request, default value to `POST`.
-  - **allowedHeaders**: ise used for response header is used in response to a preflight request can be used during the actual request, default value to `Content-Type, Accept, Authorization`.
-  - **exposedHeaders**: is used for response header allows a server to indicate which response headers should be made available, default value to `Content-Range, X-Content-Range`.
+  - **origin**: is used for response header indicates whether the response can be shared with requesting code from the given origin.
+  - **method**: used for response header specifies one or more methods allowed when accessing a resource in response or request.
+  - **allowedHeaders**: ise used for response header is used in response to a preflight request can be used during the actual request, default value to.
+  - **exposedHeaders**: is used for response header allows a server to indicate which response headers should be made available.
   - **credentials**: is used for response header tells http whether to expose the response to server.
   - **maxAge**: is used for response header indicates how long the results of a preflight request can be cached.
   - **auth**: is used for request header can be used to provide credentials that authenticate a user agent with a server.
-  - **responseType**: is used representation header is used to indicate the original media type of the resource, default value to `Content: application/json and Accept: application/json`.
+  - **responseType**: is used representation header is used to indicate the original media type of the resource.
   - **cache**: is used HTTP header field holds directives in both requests and responses, that control caching.
   - **compression**: is used for compress the message data without losing information about the origin media type.
   - **headers**: is used for interface of the Fetch API allows you to perform various actions on HTTP request and response headers.
