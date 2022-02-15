@@ -1,6 +1,8 @@
 # SiJago (GraphQL Client)
 
-**SiJago** is GraphQL Client for Browser and Node.js, You can write request GraphQL schema using JavaScript Object Style, Why i create this tools, Because for reducing typo when writing GraphQL schema using HTTP client like Axios, Fetch or GraphQL client using Apollo and also to simplify calling the GraphQL schema for easy to understand for human.
+[![Build Status](https://scrutinizer-ci.com/g/restuwahyu13/sijago/badges/build.png?b=master)](https://scrutinizer-ci.com/g/restuwahyu13/sijago/build-status/master) [![Coverage Status](https://coveralls.io/repos/github/restuwahyu13/jwt-transform/badge.svg?branch=main)](https://coveralls.io/github/restuwahyu13/jwt-transform?branch=main) [![CodeFactor](https://www.codefactor.io/repository/github/restuwahyu13/sijago/badge)](https://www.codefactor.io/repository/github/restuwahyu13/sijago) [![codebeat badge](https://codebeat.co/badges/565a4282-1d65-4375-b6dc-1ff18d91abcf)](https://codebeat.co/projects/github-com-restuwahyu13-sijago-master) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/613477b363404ea1aef826af415cf627)](https://www.codacy.com/gh/restuwahyu13/sijago/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=restuwahyu13/sijago&amp;utm_campaign=Badge_Grade) ![node-current](https://img.shields.io/node/v/sijago?style=flat-square) ![npm](https://img.shields.io/npm/dm/sijago) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/restuwahyu13/sijago/blob/main/CONTRIBUTING.md)
+
+**SiJago** is GraphQL Client for Browser and Node.js, You can write request GraphQL schema using JavaScript Object Style, Why i create this tools, Because for reducing typo when writing GraphQL schema using HTTP client like Axios, Fetch or GraphQL client using Apollo and also to simplify calling the GraphQL schema easy to understand for human.
 
 ## Table Of Content
 
