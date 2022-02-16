@@ -36,6 +36,7 @@ npm install sijago -S or yarn add sijago -S
 - [ ] Operation Name (Comingsoon)
 - [ ] Aliases (Comingsoon)
 - [ ] Directives (Comingsoon)
+- [ ] Subscription (Comingsoon)
 
 ## SiJago Options
 
