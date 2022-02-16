@@ -7,6 +7,7 @@
 ## Table Of Content
 
 - [Installation](#installation)
+- [Feature](#feature)
 - [Sijago Options](#sijago-options)
 - [Sijago Properties](#sijago-properties)
   + [Scalar](#scalar)
@@ -25,6 +26,16 @@
 ```bash
 npm install sijago -S or yarn add sijago -S
 ```
+
+## Feature
+- [X] Mutation
+- [X] Query
+- [X] Inline Fragments
+- [ ] Variables (Comingsoon)
+- [ ] Fragments (Comingsoon)
+- [ ] Operation Name (Comingsoon)
+- [ ] Aliases (Comingsoon)
+- [ ] Directives (Comingsoon)
 
 ## SiJago Options
 
